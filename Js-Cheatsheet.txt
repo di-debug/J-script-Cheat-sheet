@@ -1,0 +1,113 @@
+<!-- On page Script -->
+<
+script type = "text/Javascript" > < /script>
+
+<!-- External JS File -->
+<
+script type = "text/Javascript"
+src = "javascript.js" > < /script>
+
+<!--Comments -->
+<!-- Single line -->
+//
+
+<!-- Multiple line -->
+/* */
+
+<!-- Edit Dom element -->
+document.getElementById("elementID").innerHTML = "Hello Java-Script";
+
+<!-- Basic operators -->
++
+Addition
+    -
+    Substraction *
+    Multiplication /
+    Division %
+    Modulus
+    ++Increment numbers
+    --Decrement numbers
+
+<!-- Bitwise operators -->
+    &
+    And Statement |
+    or Statement~Not ^
+    Xor <<
+    left shift >>
+    right shift >>>
+    Zero fill right shift
+
+<!-- comparison operators -->
+    = = Equal to = = = Equal value & type! = Not Equal >
+    Greater Than <
+    Less Than ?
+    ternary operator
+
+<!-- Functions -->
+Function name(parameter1, parameter2, parameter3) {
+    //What the Function does
+}
+
+<!-- if/else -->
+if (condition) {
+    // what to do if condition met
+} else(condition) {
+    //what to do if condition not met
+}
+
+<!-- Objects -->
+var people = {
+    firstname: "Deepak",
+    lastname: "Nandi",
+    nationality: "Indian"
+}
+
+<!-- Variables -->
+var a; //variable
+var b = "init" //String
+var c = "hi" + "" + "deepak" //hi deepak
+var d = 1 + 2 + "3" //"33"
+var e = [1, 2, 3, 4, 5] //array
+var f = false //boolean
+const PI = 3.14 //constant
+var a = 1,
+    b = 2, //one line
+    let z = 'zzz' //block scope
+
+<!-- Loops -->
+for (before loop; condition
+    for loop; execute after loop) {
+    //What to do during the loop
+}
+
+For - The Most Common way to create a loop in javascript
+
+while -set up condition under which a loop executes
+
+do
+    while -similar to the
+while
+loop but it executes at least once and performs a check at
+the end to see
+if the condition is met to execute again
+
+break -Used to stop and exit the cycle at certain conditions
+
+continue -skip parts of the cycle
+if certain conditions are met
+
+<!-- Events -->
+Mouse- onclick, oncontextmenu, ondblclick, onmousedown, onmouseenter, onmouseleave, onmousemove,
+onmouseover, onmouseout, onmousup.
+
+keyboard- onkeydown, onkeypress,onkeyup
+
+frame- onabort ,onbeforeunload, onerror, onhashchange, onload, onpagehide, onpageshow,
+onresize, onkeyup
+
+Drag- ondrag, ondragend, ondragenter, ondragleave, ondragover, ondragstart, ondrop
+
+clipboard- oncopy, oncut, onpaste
+
+media- onabort,onended, onerror, onpause, onplay, onplaying, onvolumechange, onseeking, onratechange.
+
